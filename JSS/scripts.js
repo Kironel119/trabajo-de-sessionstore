@@ -1,4 +1,5 @@
 //Funcion de Sesión Storage
+alert("Bienvenido a la página 1");
 function guardar(){
     const nombre = document.getElementById("nombre").value;
     sessionStorage.setItem("nombre", nombre);
