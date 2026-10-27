@@ -1,5 +1,5 @@
 //Funcion para leer el nombre guardado y mostrarlo en la página 2
-alert("Bienvenido a la página 2");
+alert("Bienvenido a tu casa");
 function mostrarNombre() {
     const nombre= sessionStorage.getItem("nombre");//Lo lee de la Bodega
     if(nombre===null || nombre===""){
