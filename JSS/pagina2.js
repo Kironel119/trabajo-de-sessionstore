@@ -14,3 +14,5 @@ function borrar(){
     sessionStorage.removeItem("nombre");
     mostrarNombre();
 }
+document.addEventListener("DOMContentLoaded", mostrarNombre);
+document.getElementById("btn-borrar").addEventListener("click", borrar);
