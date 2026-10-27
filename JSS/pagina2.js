@@ -2,7 +2,7 @@
 alert("Bienvenido a la página 2");
 function mostrarNombre() {
     const nombre= sessionStorage.getItem("nombre");//Lo lee de la Bodega
-    if(nombre===null){
+    if(nombre===null || nombre===""){
      document.getElementById("saludo").innerHTML = "Buenas Don/Doña desconocid@";
     }
     else{
