@@ -1,8 +1,8 @@
 //Funcion para leer el nombre guardado y mostrarlo en la página 2
 //alert("Bienvenido a la pagina 2");
 function mostrarNombre() {
-    const nombre= sessionStorage.getItem("nombre");//Lo lee de la Bodega
-    const ciudad = sessionStorage.getItem("ciudad");
+    const nombre= localStorage.getItem("nombre");//Lo lee de la Bodega
+    const ciudad = localStorage.getItem("ciudad");
     if(nombre===null || nombre==="" || ciudad===null || ciudad===""){
      document.getElementById("saludo").innerHTML = "Buenas Don/Doña desconocid@";
     }
@@ -12,8 +12,8 @@ function mostrarNombre() {
 }
 //Funcion para borrar el nombre guardado en la bodega
 function borrar(){
-    sessionStorage.removeItem("nombre");
-    sessionStorage.removeItem("ciudad");
+    localStorage.removeItem("nombre");
+    localStorage.removeItem("ciudad");
     mostrarNombre();
 }
 document.addEventListener("DOMContentLoaded", mostrarNombre);

@@ -7,8 +7,8 @@ function guardar(){
         alert("Por favor, ingresa tu nombre y ciudad");
         return;
     }
-    sessionStorage.setItem("nombre", nombre);
-    sessionStorage.setItem("ciudad", ciudad);
+    localStorage.setItem("nombre", nombre);
+    localStorage.setItem("ciudad", ciudad);
     window.location.href = "pagina2.html";
 }
 
