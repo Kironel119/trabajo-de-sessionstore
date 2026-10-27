@@ -10,7 +10,16 @@
 <body>
     <h1>Página 2</h1>
  <p id="saludo"></p>
- <button id="btn-borrar">Borrar el nombre</button>
+  <section>
+ <h2>Respuestas a las preguntas de reflexión</h2>
+ <ol>
+ <li>Porque por consola se le agrego directamente a la bodega sin pasar por la pagian 1, por eso la pagina 2 conoce el nombre sin pasar por la pagia 1.</li>
+ <li>El 'getItem' devuelve un 'null' que quiere decir que no existe ningún valor asociado a esa clave en la bodega y si no lo revidara el if saludaria a nadie apareceria algo asi: 'Hola, Buenas bienvenid@ '</li>
+ <li>La diferencia entre recargar la pagina y cerrar la pestaña es que en el primer caso lo que hacemos es refrescar la página para que los cambios que se hacen en consola o en el codigo se actualice sin perder los datos de la bodega y al cerrar la pestaña los datos de la bodega se eliminan.</li>
+ <li>No guardaria un contraseña en SessionStorage porque no es seguro, puesto que, es muy facil acceder a ella desde la consola.</li>
+ </ol>
+</section>
+ <button id="btn-borrar">Borrar el nombre y la ciudad</button>
  <a href="index.html">Volver a la página 1</a>
 </body>
 </html>
