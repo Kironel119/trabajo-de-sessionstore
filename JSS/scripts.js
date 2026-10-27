@@ -3,6 +3,10 @@
 function guardar(){
     const nombre = document.getElementById("nombre").value;
     const ciudad = document.getElementById("ciudad").value;
+    if(nombre === "" ||nombre===null || ciudad===null || ciudad === ""){
+        alert("Por favor, ingresa tu nombre y ciudad");
+        return;
+    }
     sessionStorage.setItem("nombre", nombre);
     sessionStorage.setItem("ciudad", ciudad);
     window.location.href = "pagina2.html";
