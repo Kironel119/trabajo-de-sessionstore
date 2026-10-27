@@ -3,7 +3,7 @@
 function guardar(){
     const nombre = document.getElementById("nombre").value;
     const ciudad = document.getElementById("ciudad").value;
-    if(nombre === "" ||nombre===null || ciudad===null || ciudad === ""){
+    if(nombre === "" || ciudad === ""){
         alert("Por favor, ingresa tu nombre y ciudad");
         return;
     }
