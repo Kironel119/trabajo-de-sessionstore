@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/IMG/fondo_silksong.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:  chartreuse;
+}
+input{
+    padding: 10px;
+    background-color:cornflowerblue ;
+    color: darkolivegreen;
+}
+button{
+    padding: 10px;
+    background-color:cornflowerblue ;
+    color: darkolivegreen;
+}
+a{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: darkolivegreen;
+}
